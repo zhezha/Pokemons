@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Pokemons
 {
+    // node structure in the directed graph
     class Node
     {
         public int id { get; set; }
         public string word { get; set; }
+        // incomming edges
         public List<int> EdgesIn { get; set; }
+        // outgoing edges
         public List<int> EdgesOut { get; set; }
 
 

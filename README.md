@@ -1,4 +1,4 @@
-# Pokemons-Longest_word_chain-
+# Pokemons
 
 Find the longest word chain from the given bunch of words.
 
